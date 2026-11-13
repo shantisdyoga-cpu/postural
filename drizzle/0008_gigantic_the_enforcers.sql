@@ -1,0 +1,1 @@
+ALTER TABLE `booking_requests` MODIFY COLUMN `email` varchar(320);

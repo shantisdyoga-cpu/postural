@@ -1,0 +1,1 @@
+ALTER TABLE `booking_requests` ADD `attendance_status` enum('pending','present','absent_excused','absent_unexcused') DEFAULT 'pending' NOT NULL;
